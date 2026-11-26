@@ -1,0 +1,138 @@
+<resources>
+    <string name="app_name">LetzteMeile</string>
+
+    <!-- Navigation Tabs -->
+    <string name="nav_map">Karte</string>
+    <string name="nav_route">Route</string>
+    <string name="nav_scooter">Scooter</string>
+
+    <!-- Map Controls & Modes -->
+    <string name="map_search_hint">Ort, Adresse, Bahnhof oder Koordinaten…</string>
+    <string name="map_menu_open_cd">Menü öffnen</string>
+    <string name="map_mode_scooter">Scooter-Ansicht</string>
+    <string name="map_mode_normal">Normale Karte</string>
+    <string name="map_lines_thin">Linien: Schmal</string>
+    <string name="map_lines_prominent">Linien: Breit</string>
+    <string name="map_transit_mode_toggle_cd">Verkehrsmittel-Ebene durchschalten</string>
+    <string name="map_bus_toggle_cd">Bus-Haltestellen ein- oder ausblenden</string>
+    <string name="map_day_night_toggle_cd">Zwischen Tag- und Nacht-Kartenlayout wechseln</string>
+    <string name="map_toggle_ui_visibility_cd">Karten-Bedienelemente aus- oder einblenden</string>
+    <string name="map_my_location_cd">Auf aktuellen Standort zentrieren</string>
+    <string name="map_clear_search_cd">Suche löschen</string>
+    <string name="map_long_press_hint">Tippe auf die Karte oder suche eine Adresse, um nächste Stationen im gewählten Netz zu sehen.</string>
+    <string name="map_nearest_stations_title">Nächste Haltestellen zum Punkt</string>
+    <string name="map_plan_route_action">Route planen</string>
+    <string name="map_save_favorite_cd">Als Favorit speichern</string>
+    <string name="map_remove_favorite_cd">Aus Favoriten entfernen</string>
+    <string name="map_minimize_card_cd">Info-Fenster minimieren</string>
+    <string name="map_maximize_card_cd">Info-Fenster maximieren</string>
+    <string name="map_close_target_cd">Punkt löschen und schließen</string>
+    <string name="map_quick_route_set_start">Als Start</string>
+    <string name="map_quick_route_set_dest">Als Ziel</string>
+    <string name="map_quick_route_start_active">Start</string>
+    <string name="map_quick_route_dest_active">Ziel</string>
+    <string name="map_quick_route_clear_start_cd">Gesetzten Startpunkt zurücksetzen</string>
+    <string name="map_quick_route_clear_dest_cd">Gesetzten Zielpunkt zurücksetzen</string>
+    <string name="map_quick_maps_to_station">Zu Station %1$d · %2$s</string>
+    <string name="map_quick_maps_from_station">Ab Station %1$d · %2$s</string>
+    <string name="map_station_selected_badge">Ausgewählt</string>
+
+    <!-- Navigation Drawer, Settings & Info -->
+    <string name="drawer_reload_transit">ÖPNV-Daten neu laden</string>
+    <string name="drawer_settings">Einstellungen</string>
+    <string name="drawer_about">Über die App &amp; Rechtliches</string>
+    <string name="legal_sheet_title">Über die App &amp; Rechtliches</string>
+    <string name="legal_section_disclaimer">Haftungsausschluss</string>
+    <string name="legal_section_privacy">Datenschutzerklärung (DSGVO)</string>
+    <string name="legal_section_sources">Datenquellen &amp; Lizenzen</string>
+    <string name="legal_section_contact_project">Kontakt &amp; Projekt</string>
+    <string name="legal_open_link_cd">Externen Link im Browser öffnen</string>
+    <string name="common_back_cd">Zurück</string>
+    <string name="settings_title">Einstellungen</string>
+    <string name="settings_expand_cd">Bereich aufklappen</string>
+    <string name="settings_collapse_cd">Bereich einklappen</string>
+    <string name="settings_offline_nets_title">Offline-ÖPNV-Netze verwalten</string>
+    <string name="settings_offline_nets_download_all">Alle Netze laden</string>
+    <string name="settings_offline_nets_cancel_all">Download abbrechen</string>
+    <string name="settings_offline_net_load">Laden</string>
+    <string name="settings_offline_net_refresh_cd">Netz aktualisieren</string>
+    <string name="settings_offline_net_delete_cd">Lokales Netz löschen</string>
+    <string name="settings_offline_net_not_loaded">Nicht geladen</string>
+    <string name="settings_offline_nets_wifi_hint">Tipp: Für den Download der ÖPNV-Netze wird eine WLAN-Verbindung empfohlen (einzelne Länderpakete wie Österreich/Schweiz sind bis zu ca. 120 MB groß).</string>
+    <string name="map_attribution_badge">© OSM · OpenFreeMap</string>
+    <string name="map_attribution_cd">Karten-Quellenangaben und Lizenzen anzeigen</string>
+    <string name="onboarding_title">Willkommen bei LetzteMeile</string>
+    <string name="onboarding_subtitle">Welche ÖPNV-App / Region nutzt du standardmäßig?</string>
+    <string name="onboarding_offline_badge">Offline-Netz</string>
+    <string name="onboarding_confirm">Speichern &amp; starten</string>
+    <string name="routing_bike_route_label">Echter Rad-/Scooterweg</string>
+
+    <!-- Route Screen -->
+    <string name="route_title">Scooter-First Route</string>
+    <string name="route_start_label">Startpunkt</string>
+    <string name="route_destination_label">Zielpunkt</string>
+    <string name="route_swap_cd">Start und Ziel tauschen</string>
+    <string name="route_use_gps">Mein Standort</string>
+    <string name="route_search_button">Verbindung berechnen</string>
+    <string name="route_bus_warning_title">Bus-Mitnahme beachten</string>
+    <string name="route_bus_warning_body">In vielen Verkehrsbetrieben gilt in Bussen ein E-Scooter-Mitnahmeverbot (Brandschutz). Verbindung bleibt dennoch sichtbar.</string>
+    <string name="route_empty_title">Geografische Scooter-Route</string>
+    <string name="route_empty_body">Wähle Start (Adresse, GPS oder Karte) und Ziel (Adresse oder Karte) sowie dein Wunsch-Netz für Start und Ziel. LetzteMeile berechnet die Scooter-Strecken, Umstiegspunkte und deinen Akku-Check – und übergibt bei Bedarf direkt an deine Karten- oder ÖPNV-App.</string>
+    <string name="route_retry">Erneut versuchen</string>
+    <string name="route_map_two_finger_hint">Karte mit 2 Fingern verschieben</string>
+    <string name="route_map_fullscreen_cd">Routenkarte im Vollbild öffnen</string>
+    <string name="route_map_back_to_route">Zurück zur Route</string>
+    <string name="route_map_jump_start">Start</string>
+    <string name="route_map_jump_destination">Ziel</string>
+    <string name="route_picker_confirm_start">Als Start übernehmen</string>
+    <string name="route_picker_confirm_destination">Als Ziel übernehmen</string>
+    <string name="route_picker_discard_pin_cd">Vorschau-Pin verwerfen</string>
+    <string name="route_picker_tap_hint">Tippe auf die Karte, um einen Vorschau-Pin zu setzen.</string>
+    <string name="route_picker_adjust_hint">Tippe erneut auf die Karte, um den Pin nachzujustieren.</string>
+    <string name="route_picker_resolving_address">Ort wird ermittelt…</string>
+    <string name="route_copy_helper_button">Kopier-Hilfe</string>
+    <string name="route_copy_helper_title">Kopier-Hilfe (Splitscreen)</string>
+    <string name="route_copy_helper_subtitle">Tippe auf eine Zeile, um sie direkt in die ÖPNV-App einzufügen.</string>
+    <string name="route_copy_helper_start_address">Start-Adresse</string>
+    <string name="route_copy_helper_dest_address">Ziel-Adresse</string>
+    <string name="route_copy_helper_start_station">Start-Haltestelle</string>
+    <string name="route_copy_helper_dest_station">Ziel-Haltestelle</string>
+    <string name="route_copy_helper_stations_section">Haltestellen (für ÖPNV-App)</string>
+    <string name="route_copy_helper_copy_action">Kopieren</string>
+    <string name="route_copy_helper_copied_action">Kopiert ✓</string>
+    <string name="route_copy_helper_open_adjacent">ÖPNV-App daneben öffnen</string>
+    <string name="route_copy_helper_splitscreen_tip">Tipp: Öffne die ÖPNV-App über die Android-App-Übersicht im geteilten Bildschirm (Splitscreen) neben Letzte Meile.</string>
+    <string name="route_copy_helper_close_cd">Kopier-Hilfe schließen</string>
+    <string name="route_favorites_title">Favoriten</string>
+    <string name="route_favorites_for_start">Für Start</string>
+    <string name="route_favorites_for_dest">Für Ziel</string>
+    <string name="route_favorites_pick_start_cd">Favorit als Start auswählen</string>
+    <string name="route_favorites_pick_dest_cd">Favorit als Ziel auswählen</string>
+    <string name="route_favorites_drag_hint">Tippen zum Übernehmen · Rechts ziehen zum Sortieren</string>
+    <string name="route_favorites_drag_cd">Reihenfolge durch Ziehen ändern</string>
+    <string name="route_favorites_delete_cd">Favorit löschen</string>
+    <string name="route_preferred_origin_station">Gewählte Start-Station: %1$s</string>
+    <string name="route_preferred_dest_station">Gewählte Ziel-Station: %1$s</string>
+    <string name="route_preferred_station_clear_cd">Stationsauswahl zurücksetzen</string>
+    <string name="route_first_mile_maps_button">1. Meile (%1$s)</string>
+    <string name="route_last_mile_maps_button">Letzte Meile</string>
+    <string name="route_leg_maps_pill">Maps</string>
+    <string name="route_open_leg_maps_cd">Scooter-Etappe in Karten-App öffnen</string>
+    <string name="route_external_transit_hint">Für Live-Abfahrtszeiten &amp; Splitscreen:</string>
+
+    <!-- Scooter Profile & Battery -->
+    <string name="scooter_title">Mein E-Scooter</string>
+    <string name="scooter_battery_quick_title">Akkustand anpassen</string>
+    <string name="scooter_model_label">Modellname</string>
+    <string name="scooter_manufacturer_range_label">Hersteller-Reichweite (km)</string>
+    <string name="scooter_real_factor_label">Real-Reichweiten-Faktor (%)</string>
+    <string name="scooter_max_speed_label">Höchstgeschwindigkeit (km/h)</string>
+    <string name="scooter_save_profile">Profil speichern</string>
+    <string name="scooter_favorites_title">Gespeicherte Ziele</string>
+    <string name="scooter_favorites_empty">Noch keine Favoriten gespeichert. Wähle ein Ziel auf der Karte und tippe auf das Stern-Symbol.</string>
+
+    <!-- Battery Status -->
+    <string name="battery_safe">Hin- &amp; Rückweg sicher</string>
+    <string name="battery_tight">Knappe Reserve</string>
+    <string name="battery_critical">Akku reicht nicht für Rückweg</string>
+</resources>

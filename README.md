@@ -25,6 +25,7 @@ Die fertige, signierte Android-App (APK) findest du direkt unter den **[GitHub R
 * **DACH-weite ÖPNV-Anbindung:** Unterstützt u. a. **MVV (München), VBB/BVG (Berlin & Brandenburg), HVV (Hamburg), RMV (Frankfurt/Rhein-Main), VVS (Stuttgart), VRS (Köln/Bonn), ÖBB (Österreich) & SBB (Schweiz)**.
 * **Nahtlose App-Übergabe & Kopier-Hilfe:** Übergibt bereinigte Adressen und Stationen direkt an deine ÖPNV-App oder Google Maps – inklusive praktischer Kopier-Hilfe für Live-Abfahrtszeiten und Splitscreen.
 * **Modernes, barrierearmes Design:** Augenfreundliches Dark-Theme mit hohen Kontrasten für gute Lesbarkeit auch unterwegs bei Tageslicht.
+* ![Downloads](https://img.shields.io/github/downloads/CimShedn/letztemeile/total)
 
 ---
 
